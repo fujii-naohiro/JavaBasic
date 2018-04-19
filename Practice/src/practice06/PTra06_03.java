@@ -19,6 +19,14 @@ public class PTra06_03 {
 		 * ■
 		 * ■
 		 */
-
+		for(int i = 0; i < 41; i++) {
+			if(i < 35) {
+				System.out.print("-");
+			}else if(i == 35) {
+				System.out.println();
+			}else {
+				System.out.println("■");
+			}
+		}
 	}
 }
